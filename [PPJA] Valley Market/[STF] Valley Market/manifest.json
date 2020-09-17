@@ -1,0 +1,19 @@
+{
+  "Name": "[STF] Valley Market",
+  "Author": "Hadi",
+  "Version": "1.0.0",
+  "Description": "PPJA/MCN official item market.",
+  "UniqueID": "ppjamcn.valleymarket",
+  "MinimumApiVersion": "3.0.0",
+  "Dependencies": [
+    {
+      "UniqueID": "ppja.valleymarketCP",
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+    "MinimumVersion": "0.11.3"
+
+
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Name": "Valley Market",
+  "Author": "Hadi/PPJA/MCN",
+  "Version": "1.0.0",
+  "Description": "Adds a market that sells seeds and machines to the railroad map.",
+  "UniqueID": "ppjamcn.TMXVM",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  },
+}

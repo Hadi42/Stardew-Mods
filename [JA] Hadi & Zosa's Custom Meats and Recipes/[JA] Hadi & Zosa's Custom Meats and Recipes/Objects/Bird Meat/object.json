@@ -1,0 +1,16 @@
+{
+    "Name": "Bird Meat",
+    "Description": "A very small hunk of meat from a bird. Maybe a cat will like it?",
+    "Category": "Meat",
+    "Edibility": 250,
+    "Price": 60,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "Recipe": null,
+    "PurchasePrice": 100,
+}

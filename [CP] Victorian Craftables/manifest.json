@@ -1,0 +1,11 @@
+{
+   "Name": "Victorian Craftables",
+   "Author": "Hadi",
+   "Version": "1.0",
+   "Description": "A set of craftables inspired by Eemie's Victorian Buildings.",
+   "UniqueID": "Hadi.victoriancraftables",
+   "UpdateKeys": [ "Nexus:6797" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

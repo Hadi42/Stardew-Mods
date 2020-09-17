@@ -1,0 +1,10 @@
+{
+   "Name": "Hudson Valley Craftables - Nantucket",
+   "Author": "Hadi",
+   "Version": "1.0",
+   "Description": "A set of craftables inspired by Hudson Valley Buildings.",
+   "UniqueID": "Hadi.hudsoncraftables",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

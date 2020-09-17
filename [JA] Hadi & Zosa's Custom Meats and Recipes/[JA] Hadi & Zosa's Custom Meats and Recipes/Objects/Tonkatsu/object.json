@@ -1,0 +1,38 @@
+{
+    "Name": "Tonkatsu",
+    "Description": "Breaded wild pork fried to golden perfection.",
+    "Category": "Cooking",
+    "Edibility": 75,
+    "Price": 750,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Boar",
+            "Count": 1,
+        },
+        {
+            "Object": "Bread",
+            "Count": 1,
+        },
+        {
+            "Object": "Egg",
+            "Count": 1,
+        },
+        {
+            "Object": "Oil",
+            "Count": 1,
+        },
+        ],
+    },
+	"GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "PurchasePrice": 600,
+    "PurchaseRequirements": null,
+}

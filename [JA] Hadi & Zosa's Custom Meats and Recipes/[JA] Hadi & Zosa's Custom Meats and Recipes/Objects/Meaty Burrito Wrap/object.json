@@ -1,0 +1,38 @@
+{
+    "Name": "Meaty Burrito Wrap",
+    "Description": "So juicy, so tender! A completely different experience from regular beef burritos.",
+    "Category": "Cooking",
+    "Edibility": 98,
+    "Price": 800,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Alpaca Meat",
+            "Count": 1,
+        },
+        {
+            "Object": "Tortilla",
+            "Count": 1,
+        },
+        {
+            "Object": "Tomato",
+            "Count": 1,
+        },
+        {
+            "Object": "Cheese",
+            "Count": 1,
+        },
+        ],
+    },
+	"GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "PurchasePrice": 650,
+    "PurchaseRequirements": null,
+}

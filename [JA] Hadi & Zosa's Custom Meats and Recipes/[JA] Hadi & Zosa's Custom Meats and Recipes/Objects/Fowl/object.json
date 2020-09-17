@@ -1,0 +1,16 @@
+{
+    "Name": "Fowl",
+    "Description": "Meat from a wild bird.",
+    "Category": "Meat",
+    "Edibility": 35,
+    "Price": 1050,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "Recipe": null,
+    "PurchasePrice": 1100,
+}

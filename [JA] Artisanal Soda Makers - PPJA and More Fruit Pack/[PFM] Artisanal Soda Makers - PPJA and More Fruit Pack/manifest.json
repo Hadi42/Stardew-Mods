@@ -1,0 +1,18 @@
+﻿{
+	"Name": "[PFM] Artisanal Soda Maker - PPJA and More Fruit Pack",
+	"Author": "Hadi",
+	"Version": "1.3.3",
+	"Description": "Producer rules for making artisanal sodas and sparkling water from PPJA and other modded fruit.",
+	"UniqueID": "Hadi.SodaMakerPPJA",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "" ],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.ProducerFrameworkMod"
+	},
+	"Dependencies": [
+   {
+      "UniqueID": "Hadi.JASoda",
+      "IsRequired": true,
+   },
+]
+}

@@ -1,0 +1,451 @@
+{
+    "RemovePacksFromVanilla": [
+    	"ppja.moretrees",
+    	"Hadi.JASoda",
+    	"ppja.fruitsandveggies",
+    	"mizu.flowers",
+    	"PPJA.cannabiskit",
+    	"ParadigmNomad.FantasyCrops",
+    	"paradigmnomad.freshmeat",
+    	"ppja.artisanvalleymachinegoods",
+        "Hadi.FrozenTreatsJA",
+        "zcsnightmare.naw",
+        "KAYA.ColorfulGarden",
+        "KAYA.GrowFence",
+        "KAYA.KoreaBlossom",
+        "KAYA.Mulberry",
+        "amburr.spoopyvalley",
+        "amburr.stardewvineyard",
+        "vNIANHUAv.MoreTeaJA",
+        "Popobug.SPCFW",
+        "fwippy.champagnewishes",
+        "jfujii.TeaTime",
+        "Cinnanimroll.CoconutTree",
+        "MelindaC.FizzyDrinks",
+        "lumisteria.smallfruittrees",
+        "key.cropspack",
+        "deffiliation.JAKimchiMaker",
+        "xiaobaishu.JA.fenjieji",
+        "furyx639.ComposterJA",
+        "Ritsune.BakersLifeJA",
+        "Ritsune.ChocolatierJA",
+        "Ivycrowned.JARealisticLooms",
+        "KAYA.JACandyMachine",
+        "KAYA.JAMoreMead",
+        "richardtrle.expandedcrops",
+        "zhellybelly.ancientfruitvariants",
+    ],
+  	"Shops": [
+  	
+  	//Fruit Trees
+    	{
+      	"ShopName": "LenaShop",
+      	"StoreCurrency": "Money",
+      	"CategoriesToSellHere": [ 
+        	-79,
+      	],
+      	"PortraitPath": "assets/Lena.png",
+      	"Quote": "O-oh... uhm, welcome...", 
+      	"ItemStocks": [
+            {
+          		"ItemType": "Seed",
+	            "ItemNames": [
+	            	"Almond",
+	            	"Asian Pear",
+	            	"Avocado",
+	            	"Banana",
+                	"Black Boy Peach",
+                	"Black Diamond Apple",
+                	"Black Ruby Plum",
+                	"Black Worcester Pear",
+                	"Breadfruit",
+	            	"Camphor Leaves",
+	            	"Cashew",
+	            	"Cinnamon Sticks",
+	            	"Cocoa Pod",
+	            	"Coconut",
+	            	"Kola Nut",
+	            	"Dragon Fruit",
+	            	"Durian",
+	            	"Eucalyptus Leaves",
+	            	"Fig",
+	            	"Granny Smith Apple",
+	            	"Grapefruit",
+	            	"Lemon",
+	            	"Lime",
+	            	"Lychee",
+	            	"Mango",
+	            	"Melaleuca Leaves",
+	            	"Olive",
+	            	"Papaya",
+	            	"Pear",
+	            	"Pecan",
+	            	"Persimmon",
+	            	"Pomelo",
+	            	"Ume",
+	            	"Walnut",
+	            	"Yuzu"
+              	],
+            },
+            {
+          		"ItemType": "Seed",
+          		"FilterSeedsBySeason": true,
+            	"JAPacks": [
+                	"lumisteria.smallfruittrees",
+              	],
+              	"When": [//Only sell after greenhouse is unlocked
+              		"Hn ccPantry",
+              	]
+            },
+            
+          ],
+        	"When": [ //only open the store from 9AM to 6PM
+          		"t 900 1800",
+        		],
+        	"ClosedMessage": "S-sorry, I get really nervous without Jo..."
+      	},
+    
+    //Non-tree Fruits and Veggies
+	    {
+	      "ShopName": "JosephineShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -75,
+	      ],
+	      "PortraitPath": "assets/Jo.png",
+	      "Quote": "A customer! Welcome, welcome! Have a look around!",
+	      "ItemStocks": [
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "ItemNames": [
+	                "Adzuki Bean",
+	                "Asparagus",
+	                "Bamboo",
+	                "Barley",
+	                "Bell Pepper",
+	                "Bitter Orange",
+	                "Blackberry",
+	                "Black Carrot",
+	                "Black Goji Berry",
+	                "Black Huckleberry",
+	                "Black Mulberry",
+	                "Blue Agave",
+	                "Broccoli",
+	                "Buckwheat",
+	                "Butternut Squash",
+	                "Cabbage",
+	                "Cactus Flower",
+	                "Carrot",
+	                "Cassava",
+	                "Celery",
+	                "Chickpea",
+	                "Cotton",
+	                "Daikon",
+	                "Durum",
+	                "Elderberry",
+	                "Futsu Pumpkin",
+	                "Ginseng",
+	                "Gooseberry",
+	                "Habanero",
+	                "Hungarian Chile",
+	                "Indigo Rose Tomato",
+	                "Jalapeno",
+	                "Juniper",
+	                "Kulli Corn",
+	                "Lettuce",
+	                "Maguey",
+	                "Mulberry",
+	                "Muskmelon",
+	                "Napa Cabbage",
+	                "Oat",
+	                "Okra",
+	                "Onion",
+	                "Paddy Taro",
+	                "Peanut",
+	                "Pineapple",
+	                "Purple Beauty Bell Pepper",
+	                "Quinoa",
+	                "Rapeseed",
+	                "Raspberry",
+	                "Red Onion",
+	                "Shallot",
+	                "Soybean",
+	                "Spinach",
+	                "Stevia Plant",
+	                "Sugar Beet",
+	                "Sugar Cane",
+	                "Sweet Canary Melon",
+	                "Sweet Potato",
+	                "Tabasco Pepper",
+	                "Wasabi",
+	                "Watermelon Mizu",
+	                "Winter Broccoli",
+	                "Winter Lychee",
+	                "Zucchini",
+	              ],
+	            },
+	            {
+          		"ItemType": "Seed",
+            	"JAPacks": [
+                	"zhellybelly.ancientfruitvariants",
+              	],
+              	"When": [
+	          		"s 454 1",
+	      			]
+            },
+	            
+	          ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "I hope you'll come back and see us next time; my wife Lena may be shy, but she'll be happy to see you too!"
+	      },
+	
+	//Trellises
+	    {
+	      "ShopName": "MateoShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -75,
+	      ],
+	      "PortraitPath": "assets/Mateo.png",
+	      "Quote": "Hey there! Come to get some grapes and vines?",
+	      "ItemStocks": [
+	      	{
+          		"ItemType": "Seed",
+          		"FilterSeedsBySeason": true,
+            	"JAPacks": [
+                	"amburr.stardewvineyard",
+                	"fwippy.champagnewishes",
+              	],
+            },
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "ItemNames": [
+	                "Cucumber",
+	                "Green Pea",
+	                "Kidney Bean",
+	                "Kiwi",
+	                "Navy Bean",
+	                "Passion Fruit",
+	                "Salmonberry",
+	                "Spice Berry"
+	              ],
+	            },
+	           //  {
+	          	// "ItemType": "Seed",
+	          	// "FilterSeedsBySeason": true,
+	           //  "ItemNames": [
+	           //      "Blackberry",
+	           //    ],
+	           //  "When": [
+	           //  	"HasMod:richardtrle.expandedcrops",
+	           //  	"HasMod:ppja.fruitsandveggies"
+	           //  ]
+	           //  },
+	            
+	          ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "Oh, yeah, sorry, Nicte and I are getting ready to head on home. Next time."
+	      	},
+	
+	//Herbs and Mushrooms
+	      {
+	      "ShopName": "HaniyyaShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -75,
+	      ],
+	      "PortraitPath": "assets/Haniyya.png",
+	      "Quote": "Hello! Welcome!",
+	      "ItemStocks": [
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "ItemNames": [
+	                "Aloe",
+	                "Amethyst Basil",
+	                "Basil",
+	                "Chives",
+	                "Fennel",
+	                "Ginger",
+	                "Licorice Root",
+	                "Mint",
+	                "Oregano",
+	                "Parsley",
+	                "Perilla Leaf",
+	                "Rosemary",
+	                "Sage",
+	                "Thyme",
+	                "Shiitake Mushroom",
+	                "Sulfur Shelf Mushroom"
+	              ],
+	            },
+	            {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "JAPacks": [
+	                "vNIANHUAv.MoreTeaJA",
+	                "jfujii.TeaTime",
+	            
+	          ],
+	            },
+	            ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "Apologies, I'm closing up for the evening. Please come again soon."
+	      },
+	
+	//Flowers and Flowering Trees
+	      {
+	      "ShopName": "AideenShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -80,
+	      ],
+	      "PortraitPath": "assets/Aideen.png",
+	      "Quote": "Oh my, are you here for some flower seeds?",
+	      "ItemStocks": [
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "JAPacks": [
+	                "mizu.flowers",
+	                "KAYA.ColorfulGarden",
+	                "KAYA.GrowFence",
+	                "KAYA.KoreaBlossom",
+	          ],
+	            },
+	            {
+          		"ItemType": "Seed",
+          		"FilterSeedsBySeason": true,
+	            "ItemNames": [
+                	"Black Magic Viola",
+                	"Blue Rose",
+                	"Black Velvet Petunia",
+                	"Gentian",
+                	"Queen of the Night Tulip",
+                	"Snowdrop",
+                ],
+	        },
+	        {
+          		"ItemType": "Seed",
+	            "ItemNames": [
+                	"Fragrant Wisteria",
+                	"Vanilla",
+                	"Ylang Ylang",
+                	"Gentian",
+                	"Queen of the Night Tulip",
+                	"Snowdrop",
+                ],
+	        },
+	    ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "I'm afraid we're closed now, but the flowers will return to greet you in the morning, I'm sure."
+	      	},
+	
+	//Cannabis
+	      {
+	      "ShopName": "IvyShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -75,
+	      ],
+	      "PortraitPath": "assets/Aideen.png",
+	      "Quote": "Welcome! Looking for anything in particular?", 
+	      "MaxNumItemsSoldInStore": 30,
+	      "ItemStocks": [
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "JAPacks": [
+	                "PPJA.cannabiskit",
+	            
+	          ],
+	            },
+      ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "It's hard work running a nursery all by myself, but I hope you'll come back to see what I've got next time!"
+	      },
+	//Fantasy Crops
+		  {
+	      "ShopName": "IzdiharShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -12,
+	      ],
+	      "PortraitPath": "assets/Izdihar.png",
+	      "Quote": "Perhapsss fate hasss brought you here today.", 
+	      "MaxNumItemsSoldInStore": 30,
+	      "ItemStocks": [
+	          {
+	          	"ItemType": "Seed",
+	          	"FilterSeedsBySeason": true,
+	            "JAPacks": [
+	                "ParadigmNomad.FantasyCrops",
+	                "paradigmnomad.freshmeat"
+	            
+	          ],
+	            },
+      ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "Worry not, the daysss grow ssshort until we meet again..."
+	      },
+	//Machines (not recipes) and Weaponry
+		  {
+	      "ShopName": "NasiraShop",
+	      "StoreCurrency": "Money",
+	      "CategoriesToSellHere": [ 
+	        -98,
+	        -9
+	      ],
+	      "PortraitPath": "assets/Nasira.png",
+	      "Quote": "Hey! Great to see you! I've got machines and weapons today.", 
+	      "MaxNumItemsSoldInStore": 30,
+	      "ItemStocks": [
+	          {
+		        "ItemType": "BigCraftable",
+		        "StockPrice": 8000,
+		        "Stock": 6,
+		        "JAPacks": [
+		            "ppja.artisanvalleymachinegoods",
+            		"Hadi.JASoda",
+            		"deffiliation.JAKimchiMaker",
+            		"xiaobaishu.JA.fenjieji",
+            		"furyx639.ComposterJA",
+            		"Ritsune.BakersLifeJA",
+            		"Hadi.FrozenTreatsJA",
+            		"Ritsune.ChocolatierJA",
+            		"Ivycrowned.JARealisticLooms",
+            		"KAYA.JACandyMachine",
+            		"KAYA.JAMoreMead",
+		          ],
+		      },
+		      {
+          		"ItemType": "Weapon",
+          		"MaxNumItemsSoldInItemStock": 6,
+          		"JAPacks": [
+            		"zcsnightmare.naw",
+            		
+          ],
+        },
+      ],
+	        "When": [ //only open the store from 9AM to 6PM
+	          "t 900 1800",
+	        ],
+	        "ClosedMessage": "We're closed now, sorry about that. Hm? You saw Khadija in town earlier too? Yeah she... does that."
+	      },
+	]
+
+}

@@ -1,0 +1,30 @@
+{
+    "Name": "Cooked Dragon Meat",
+    "Description": "A rich dragon steak, already cooked and ready to be used in recipes.",
+    "Category": "Cooking",
+    "Edibility": 275,
+    "Price": 10750,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Dragon Meat",
+            "Count": 1,
+        },
+        {
+            "Object": "Seasonings",
+            "Count": 1,
+        },
+        ],
+    },
+    "PurchasePrice": 10000,
+    "PurchaseRequirements": null,
+}

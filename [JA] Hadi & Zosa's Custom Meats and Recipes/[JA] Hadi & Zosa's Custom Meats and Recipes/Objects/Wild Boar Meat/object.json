@@ -1,0 +1,16 @@
+{
+    "Name": "Wild Boar Meat",
+    "Description": "A gamey but tasty cut of wild boar.",
+    "Category": "Meat",
+    "Edibility": 30,
+    "Price": 1500,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "PurchasePrice": 1800,
+
+}

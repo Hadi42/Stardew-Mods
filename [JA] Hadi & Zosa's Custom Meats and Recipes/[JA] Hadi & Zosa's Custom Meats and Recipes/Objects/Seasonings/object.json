@@ -1,0 +1,10 @@
+{
+    "Name": "Seasonings",
+    "Description": "A collection of spices for preparing a delicious meat rub.",
+    "Category": "ArtisanGoods",
+    "Edibility": -300,
+    "Price": 75,
+    "IsColored": false,
+    "PurchasePrice": 100,
+    "PurchaseRequirements": null,
+}

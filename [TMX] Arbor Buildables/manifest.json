@@ -1,0 +1,11 @@
+{
+  "Name": "[TMX] Buildable Arbors",
+  "Author": "Hadi",
+  "Version": "2.0.0",
+  "Description": "A set of buildable tmx arbors to decorate your gardens.",
+  "UniqueID": "hadi.buildablearbors",
+  "UpdateKeys": ["Nexus:6565"],
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  }
+}

@@ -1,0 +1,150 @@
+{
+
+"buildables": [
+{
+"id":"hadi.asharbor",
+"name": "Ash Arbor",
+"file": "assets/ash.tmx",
+"iconFile": "assets/ashicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":388,
+			"stack":50
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.asharborfv",
+"name": "Flower Valley Ash Arbor",
+"file": "assets/ashfv.tmx",
+"iconFile": "assets/ashfvicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":388,
+			"stack":50
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.ironarbor",
+"name": "Iron Arbor",
+"file": "assets/iron.tmx",
+"iconFile": "assets/ironicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":335,
+			"stack":5
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.ironarborfv",
+"name": "Flower Valley Iron Arbor",
+"file": "assets/ironfv.tmx",
+"iconFile": "assets/ironfvicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":335,
+			"stack":5
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.chocoarbor",
+"name": "Chocolate Arbor",
+"file": "assets/chocolate.tmx",
+"iconFile": "assets/chocoicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":709,
+			"stack":25
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.chocoarborfv",
+"name": "Flower Valley Chocolate Arbor",
+"file": "assets/chocolatefv.tmx",
+"iconFile": "assets/chocofvicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":709,
+			"stack":25
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.whitearbor",
+"name": "White Arbor",
+"file": "assets/white.tmx",
+"iconFile": "assets/whiteicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":390,
+			"stack":50
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+{
+"id":"hadi.whitearborfv",
+"name": "Flower Valley White Arbor",
+"file": "assets/whitefv.tmx",
+"iconFile": "assets/whitefvicon.png",
+"removeEmpty":false,
+"price":500,
+"buildItems":[
+			{
+			"index":390,
+			"stack":50
+			},
+			{
+			"index":771,
+			"stack":75
+			},
+		  ],
+},
+]
+
+}

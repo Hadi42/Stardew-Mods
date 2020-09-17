@@ -1,0 +1,16 @@
+{
+    "Name": "Dragon Meat",
+    "Description": "A rare steak cut from a dragon. I'd hate to see how the other party ended up!",
+    "Category": "Meat",
+    "Edibility": 250,
+    "Price": 10000,
+    "IsColored": false,
+    "GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "Recipe": null,
+    "PurchasePrice": 10300,
+}

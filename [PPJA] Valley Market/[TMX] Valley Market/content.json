@@ -1,0 +1,12 @@
+﻿{
+  "mergeMaps": [
+    {
+      "name": "Railroad",
+      "file": "assets/ValleyMarketMain.tbin",
+      "sourceArea": [ 0, 0, 38, 28 ],
+      "position": [ 0, 8 ],
+      "conditions": "d Sun",
+      "removeEmpty": false,
+    },
+  ]
+}

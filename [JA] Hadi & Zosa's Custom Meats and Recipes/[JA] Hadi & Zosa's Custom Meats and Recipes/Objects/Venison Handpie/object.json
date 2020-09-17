@@ -1,0 +1,38 @@
+{
+    "Name": "Venison Handpie",
+    "Description": "A fried pasty stuffed with soft, garlicky deer meat and vegetables.",
+    "Category": "Cooking",
+    "Edibility": 68,
+    "Price": 2750,
+    "IsColored": false,
+    "Recipe":
+    {
+        "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": "Cooked Venison",
+            "Count": 1,
+        },
+        {
+            "Object": "Leek",
+            "Count": 1,
+        },
+        {
+            "Object": "Garlic",
+            "Count": 1,
+        },
+        {
+            "Object": "Batter",
+            "Count": 1,
+        },
+        ],
+    },
+	"GiftTastes":
+    {
+		"Love": ["Gregory"],
+        "Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Shane", "Vincent", "Willy", "Wizard"],
+        "Hate": ["Sebastian", "Sheila"],
+    },
+    "PurchasePrice": 2375,
+    "PurchaseRequirements": null,
+}

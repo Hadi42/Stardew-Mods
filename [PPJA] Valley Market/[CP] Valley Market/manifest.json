@@ -1,0 +1,22 @@
+{
+   "Name": "Valley Market",
+   "Author": "Project Populate Json Assets",
+   "Description": "Map strings.",
+   "Version": "1.0.0",
+   "UniqueID": "ppja.valleymarketCP",
+   "UpdateKeys": [ "Nexus:5556" ],
+"MinimumApiVersion": "3.3.2",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+   {
+      "UniqueID": "ppja.moretrees",
+      "IsRequired": true,
+   },
+   {
+      "UniqueID": "ppja.fruitsandveggies",
+      "IsRequired": true,
+   },
+]
+}
