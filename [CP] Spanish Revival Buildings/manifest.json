@@ -1,0 +1,11 @@
+{
+   "Name": "Spanish Revival Buildings",
+   "Author": "Hadi",
+   "Version": "1.0",
+   "Description": "A building texture replacement based on the Spanish Revival architectural style.",
+   "UniqueID": "Hadi.spanishbuildings",
+   "UpdateKeys": [ "Nexus:7160" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

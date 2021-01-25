@@ -1,0 +1,19 @@
+{
+  "Name": "[STF] Khadija's Recipe Shop",
+  "Author": "Hadi",
+  "Version": "1.2.8",
+  "Description": "Shop for selling modded recipes, materials, and objects from JA packs.",
+  "UniqueID": "ppja.recipeshop",
+  "MinimumApiVersion": "3.6.0",
+  "Dependencies": [
+    {
+      "UniqueID": "ppja.TMX.KRS"
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Cherry.ShopTileFramework",
+    "MinimumVersion": "1.0.4"
+
+
+  }
+}

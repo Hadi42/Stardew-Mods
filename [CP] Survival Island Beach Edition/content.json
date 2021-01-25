@@ -1,0 +1,125 @@
+{
+    "Format": "1.18",
+    "ConfigSchema": {
+        "FarmToReplace": {
+            "AllowValues": "Standard, Forest, Riverland, Hilltop, Wilderness, FourCorners, Beach",
+            "Default": "Beach"
+        },
+        "Sprinklers": {
+            "AllowValues": "true, false",
+            "Default": "false"
+        },
+    },
+    "DynamicTokens": [
+    	{
+            "Name": "file",
+            "Value": "Farm",
+            "When": {
+                "FarmToReplace": "Standard"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Foraging",
+            "When": {
+                "FarmToReplace": "Forest"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Fishing",
+            "When": {
+                "FarmToReplace": "Riverland"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Mining",
+            "When": {
+                "FarmToReplace": "Hilltop"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Combat",
+            "When": {
+                "FarmToReplace": "Wilderness"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_FourCorners",
+            "When": {
+                "FarmToReplace": "FourCorners"
+            }
+        },
+        {
+            "Name": "file",
+            "Value": "Farm_Island",
+            "When": {
+                "FarmToReplace": "Beach"
+            }
+        },
+        
+    ],
+    "Changes": [
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "MapProperties": {
+            "Warp": "120 25 Town 0 90 120 26 Town 0 90 120 24 Town 0 90 120 27 Town 0 90 67 -1 Farm 42 63 68 -1 Farm 42 63 69 -1 Farm 42 63 -1 6 Woods 59 15 -1 7 Woods 59 15 70 -1 Farm 42 63 71 -1 Farm 43 63 72 -1 Farm 43 63"
+            },
+        "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        {          
+      "Action": "EditData",
+      "Target": "Strings/UI",
+      "Entries": {
+        "Character_FarmBeach": "Survival Island_A deserted island off the coast of Pelican Town, just big enough for a small oceanside farm."
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/{{file}}",
+            "FromFile": "assets/survival farm_{{Sprinklers}}.tbin",
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/petbowl.png",
+            "ToArea": {
+                "X": 208,
+                "Y": 1232,
+                "Width": 32,
+                "Height": 16
+            },
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/farmcave.tbin",
+            "When": {
+                "FarmType": "{{FarmToReplace}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "island.1": "S...th to ol... rch...r...",
+                "island.2": "Watch out for sharks!",
+                "island.3": "` Mountain^@ Farm Cave",
+                "island.4": "@ {{FarmName}} Farm^> Pelican Town> {{FarmName}} Island East",
+                "island.5": "South to Cindersap Forest",
+            }
+        }
+    ]
+}

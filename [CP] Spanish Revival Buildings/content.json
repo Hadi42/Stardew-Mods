@@ -1,0 +1,158 @@
+{
+	"Format": "1.10",
+
+	"ConfigSchema": {
+		"Seasonal": {
+			"AllowValues": "true, false",
+			"Default": "true"
+			},
+	},
+
+	"Changes": [
+
+	//Farmhouse
+		{
+		"LogName": "Houses",
+		"Action": "EditImage",
+		"Target": "Buildings/houses",
+		"FromFile": "assets/base/houses.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "House Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/houses_PaintMask",
+		"FromFile": "assets/base/houses_PaintMask.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Houses",
+		"Action": "EditImage",
+		"Target": "Buildings/houses",
+		"FromFile": "assets/{{season}}/houses.png",
+		"PatchMode": "Overlay",
+		"When": {
+			"Seasonal": "true",
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/houses_PaintMask",
+		"FromFile": "assets/{{season}}/houses_PaintMask.png",
+		"When": {
+			"Style": "seasonal",
+			"FarmType": "Beach",
+			}
+		},
+
+	//Mailbox
+		{
+		"LogName": "Clean Mailbox",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/base/mailbox.png",
+			"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+			"When": { 
+				"LocationName": "Farm",
+
+				"FarmType": "Beach",
+			},
+		},
+		{
+		"LogName": "Seasonal Mailbox",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_outdoorsTileSheet",
+        "FromFile": "assets/{{season}}/mailbox.png",
+			"ToArea": { "X": 80, "Y": 1232, "Width": 16, "Height": 32 },
+			"When": { 
+				"Style": "seasonal",
+				"FarmType": "Beach",
+			},
+		},
+
+	//Barns
+		{
+		"LogName": "Clean Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Barn",
+		"FromFile": "assets/base/Barn.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Barn",
+		"FromFile": "assets/{{season}}/Barn.png",
+		"When": {
+			"Style": "seasonal",
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Clean Big Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Barn",
+		"FromFile": "assets/base/Big Barn.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Big Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Big Barn",
+		"FromFile": "assets/{{season}}/Big Barn.png",
+		"When": {
+			"Style": "seasonal",
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Clean Deluxe Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn",
+		"FromFile": "assets/base/Barn.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Deluxe Barn",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn",
+		"FromFile": "assets/{{season}}/Deluxe Barn.png",
+		"When": {
+			"Style": "seasonal",
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Clean Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn_PaintMask",
+		"FromFile": "assets/base/Deluxe Barn_PaintMask.png",
+		"When": {
+			"FarmType": "Beach",
+			}
+		},
+		{
+		"LogName": "Seasonal Paint Mask",
+		"Action": "EditImage",
+		"Target": "Buildings/Deluxe Barn_PaintMask",
+		"FromFile": "assets/{{season}}/Deluxe Barn_PaintMask.png",
+		"When": {
+			"Style": "seasonal",
+			"FarmType": "Beach",
+			}
+		},
+
+	]
+}

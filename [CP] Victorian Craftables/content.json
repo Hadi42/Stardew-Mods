@@ -1,26 +1,154 @@
 {
-	"Format": "1.3",
+	"Format": "1.13",
+    "ConfigSchema": {
+        "Ignore": {"AllowValues": "Auto-Grabber, Beehouse, Cask, Charcoal Kiln, Cheese Press, Chest, Crystalarium, Furnace, Garden Pot, Keg, Lightning Rod, Loom, Mayonnaise Machine, Mushroom Boxes, Oil Maker, Preserves Jar, Recycling Machine, Seed Maker, Slime Egg-Press, Slime Incubator, Stone Sign, Tapper, Wood Sign, Workbench, Worm Bin",
+                "AllowMultiple": true,
+                "AllowBlank": true,
+                "Default": ""},
+        "WinterStyle": {"AllowValues": "Flowers, Snow, Both",
+                "Default": "Both"},
+        "Seasonal": {"AllowValues": "true, false",
+                "Default": "true"}
+            },
 	"Changes": [
+
+    //Auto-Grabber
+        {
+            "LogName": "Auto-Grabber Seasonal",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/{{season}}/autograbber.png",
+            "ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
+            "When": {
+                "Ignore:Auto-Grabber": false,
+                "Seasonal": true,
+                "Season": "z winter"
+            },
+        },
+        {
+            "LogName": "Auto-Grabber Seasonal - Winter Indoors",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Winter/{{WinterStyle}}/indoors/autograbber.png",
+            "ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
+            "When": {
+            	"IsOutdoors": false,
+                "Ignore:Auto-Grabber": false,
+                "Seasonal": true,
+                "Season": "winter",
+            },
+        },
+        {
+            "LogName": "Auto-Grabber Seasonal - Winter Outdoors",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/Winter/{{WinterStyle}}/outdoors/autograbber.png",
+            "ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
+            "When": {
+            	"IsOutdoors": true,
+                "Ignore:Auto-Grabber": false,
+                "Seasonal": true,
+                "Season": "winter",
+            },
+        },
+        {
+            "LogName": "Auto-Grabber Clean",
+            "Action": "EditImage",
+            "Target": "TileSheets/Craftables",
+            "FromFile": "assets/clean/autograbber.png",
+            "ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
+            "When": {
+                "Ignore:Auto-Grabber": false,
+                "Seasonal": false
+            },
+        },
+    //Beehouse
+		{
+            "LogName": "Seasonal Beehouse",
+            "Action": "EditImage",
+            "Target": "TileSheets/craftables",
+            "FromFile": "assets/{{season}}/beehouse.png",
+            "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+            "When": {
+                "Ignore:Beehouse": false,
+                "Seasonal": true,
+                "Season": "z winter"
+            }
+		},
+        {
+            "LogName": "Seasonal Beehouse - Winter Outdoors",
+            "Action": "EditImage",
+            "Target": "TileSheets/craftables",
+            "FromFile": "assets/winter/{{WinterStyle}}/beehouse.png",
+            "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+            "When": {
+                "Ignore:Beehouse": false,
+                "IsOutdoors": true,
+                "Seasonal": true,
+                "Season": "winter"
+            }
+        },
+        {
+            "LogName": "Seasonal Beehouse - Winter Indoors",
+            "Action": "EditImage",
+            "Target": "TileSheets/craftables",
+            "FromFile": "assets/winter/Flowers/beehouse.png",
+            "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+             "When": {
+                "Ignore:Beehouse": false,
+                "WinterStyle": "Flowers, Both",
+                "IsOutdoors": false,
+                "Seasonal": true,
+                "Season": "winter"
+            }
+        },
+        {
+            "LogName": "Seasonal Beehouse - Winter Snow Indoors",
+            "Action": "EditImage",
+            "Target": "TileSheets/craftables",
+            "FromFile": "assets/clean/beehouse.png",
+            "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+             "When": {
+                "Ignore:Beehouse": false,
+                "WinterStyle": "Snow",
+                "IsOutdoors": false,
+                "Seasonal": true,
+                "Season": "winter"
+            }
+        },
+        {
+            "LogName": "Beehouse Clean",
+            "Action": "EditImage",
+            "Target": "TileSheets/craftables",
+            "FromFile": "assets/clean/beehouse.png",
+            "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+            "When": {
+                "Ignore:Beehouse": false,
+                "Seasonal": false,
+            }
+        },
+    //Cask
 		{
          "Action": "EditImage",
          "Target": "TileSheets/craftables",
-         "FromFile": "assets/craftables.png",
-         "FromArea": { "X": 32, "Y": 32, "Width": 96, "Height": 32 },
-         "ToArea": { "X": 32, "Y": 32, "Width": 96, "Height": 32 },
+         "FromFile": "assets/{{season}}/cask.png",
+         "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
          "When": {
-                "FarmType": "Standard"
+                "Ignore:Beehouse": false,
+                "Season": "z winter"
             }
-		},
-		{
+        },
+        {
          "Action": "EditImage",
          "Target": "TileSheets/craftables",
-         "FromFile": "assets/craftables.png",
-         "FromArea": { "X": 0, "Y": 64, "Width": 80, "Height": 32 },
-         "ToArea": { "X": 0, "Y": 64, "Width": 80, "Height": 32 },
+         "FromFile": "assets/Winter/{{WinterStyle}}/beehouse.png",
+         "ToArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
          "When": {
-                "FarmType": "Standard"
+                "Ignore:Beehouse": false,
+                "Season": "winter"
             }
-		},
+        },
+    //
 		{
          "Action": "EditImage",
          "Target": "TileSheets/craftables",
@@ -57,16 +185,6 @@
          "FromFile": "assets/craftables.png",
          "FromArea": { "X": 48, "Y": 640, "Width": 16, "Height": 32 },
          "ToArea": { "X": 48, "Y": 640, "Width": 16, "Height": 32 },
-         "When": {
-                "FarmType": "Standard"
-            }
-		},
-		{
-         "Action": "EditImage",
-         "Target": "TileSheets/craftables",
-         "FromFile": "assets/craftables.png",
-         "FromArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
-         "ToArea": { "X": 80, "Y": 640, "Width": 32, "Height": 32 },
          "When": {
                 "FarmType": "Standard"
             }

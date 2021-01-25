@@ -8,16 +8,6 @@
 "iconFile": "assets/ashicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":388,
-			"stack":50
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
 },
 {
 "id":"hadi.asharborfv",
@@ -26,16 +16,38 @@
 "iconFile": "assets/ashfvicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":388,
-			"stack":50
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
+},
+{
+"id":"hadi.asharborside",
+"name": "Ash Arbor Side",
+"file": "assets/ashside.tmx",
+"iconFile": "assets/ashsideicon.png",
+"removeEmpty":false,
+"price":500,
+},
+{
+"id":"hadi.asharborsidefv",
+"name": "Flower Valley Ash Arbor Side",
+"file": "assets/ashsidefv.tmx",
+"iconFile": "assets/ashsidefvicon.png",
+"removeEmpty":false,
+"price":500,
+},
+{
+"id":"hadi.ironarborside",
+"name": "Iron Arbor Side",
+"file": "assets/ironside.tmx",
+"iconFile": "assets/ironsideicon.png",
+"removeEmpty":false,
+"price":500,
+},
+{
+"id":"hadi.ironarborsidefv",
+"name": "Flower Valley Iron Arbor Side",
+"file": "assets/ironsidefv.tmx",
+"iconFile": "assets/ironsidefvicon.png",
+"removeEmpty":false,
+"price":500,
 },
 {
 "id":"hadi.ironarbor",
@@ -44,16 +56,6 @@
 "iconFile": "assets/ironicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":335,
-			"stack":5
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
 },
 {
 "id":"hadi.ironarborfv",
@@ -62,16 +64,22 @@
 "iconFile": "assets/ironfvicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":335,
-			"stack":5
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
+},
+{
+"id":"hadi.chocoarborside",
+"name": "Chocolate Arbor Side",
+"file": "assets/chocolateside.tmx",
+"iconFile": "assets/chocolatesideicon.png",
+"removeEmpty":false,
+"price":500,
+},
+{
+"id":"hadi.chocoarborsidefv",
+"name": "Flower Valley Chocolate Arbor Side",
+"file": "assets/chocolatesidefv.tmx",
+"iconFile": "assets/chocolatesidefvicon.png",
+"removeEmpty":false,
+"price":500,
 },
 {
 "id":"hadi.chocoarbor",
@@ -80,16 +88,6 @@
 "iconFile": "assets/chocoicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":709,
-			"stack":25
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
 },
 {
 "id":"hadi.chocoarborfv",
@@ -98,16 +96,22 @@
 "iconFile": "assets/chocofvicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":709,
-			"stack":25
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
+},
+{
+"id":"hadi.whitearborside",
+"name": "White Arbor Side",
+"file": "assets/whiteside.tmx",
+"iconFile": "assets/whitesideicon.png",
+"removeEmpty":false,
+"price":500,
+},
+{
+"id":"hadi.whitearborsidefv",
+"name": "Flower Valley White Arbor Side",
+"file": "assets/whitesidefv.tmx",
+"iconFile": "assets/whitesidefvicon.png",
+"removeEmpty":false,
+"price":500,
 },
 {
 "id":"hadi.whitearbor",
@@ -116,16 +120,6 @@
 "iconFile": "assets/whiteicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":390,
-			"stack":50
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
 },
 {
 "id":"hadi.whitearborfv",
@@ -134,16 +128,6 @@
 "iconFile": "assets/whitefvicon.png",
 "removeEmpty":false,
 "price":500,
-"buildItems":[
-			{
-			"index":390,
-			"stack":50
-			},
-			{
-			"index":771,
-			"stack":75
-			},
-		  ],
 },
 ]
 

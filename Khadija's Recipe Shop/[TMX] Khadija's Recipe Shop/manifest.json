@@ -1,0 +1,10 @@
+{
+  "Name": "[TMX] Khadija's Recipe Shop",
+  "Author": "Hadi",
+  "Version": "1.2.8",
+  "Description": "Adds a shop to the ice cream stand every season except summer, when it relocates to the desert.",
+  "UniqueID": "ppja.TMX.KRS",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.TMXLoader",
+  },
+}

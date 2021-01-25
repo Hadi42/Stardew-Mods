@@ -1,0 +1,15 @@
+{
+    "Name": "Survival Island Beach Edition",
+    "Author": "DaisyNiko & Hadi",
+    "Version": "1.0.1",
+    "Description": "Redesigned island map meant to replace Beach Farm.",
+    "UniqueID": "DaisyNiko.SurvivalIslandBeach",
+    "MinimumApiVersion": "2.11.0",
+    "UpdateKeys": ["Nexus:7757"],
+    "Dependencies": [
+  	{ "UniqueID": "DaisyNiko.Tilesheets" }
+			],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

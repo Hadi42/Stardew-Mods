@@ -1,0 +1,205 @@
+{
+    "Format": "1.11.0",
+    "Changes": [
+        //Main Market Area
+            {
+                "LogName": "NPC-less KRS Recipe Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/KhadijaMarket.tmx",
+                "ToArea": { "X": 10, "Y": 25, "Width": 8, "Height": 6 },
+                "When": {
+                    "HasMod |contains=paradigmnomad.morefood, ppja.evenmorerecipes, ppja.MoreRecipesMeat, ppja.starbrewvalley, Aquilegia.SweetTooth, Ryck215.StardripsCoffeeCompatible, HadiZosa.BFAVnewmeat, Bonster.Adv.Recipes, Bonster.Recipes, Zosa.eatums, Hadi.FrozenTreatsJA, Minakie.JA.recipes, amburr.spoopyvalley, ppja.christmassweets, ppja.artisanvalleymachinegoods, KAYA.CherryBlossomCafe": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less KRS Blueprint Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/BlueprintMarket.tmx",
+                "ToArea": { "X": 10, "Y": 25, "Width": 8, "Height": 6 },
+                "When": {
+                    "HasMod |contains=ppja.artisanvalleymachinegoods, Hadi.JASoda, deffiliation.JAKimchiMaker, xiaobaishu.JA.fenjieji, furyx639.ComposterJA, Ritsune.BakersLifeJA, Hadi.FrozenTreatsJA, Ritsune.ChocolatierJA, Ivycrowned.JARealisticLooms, KAYA.JACandyMachine, KAYA.JAMoreMead, Strobe.PersonalAnvil": "true",
+                }
+            },
+            {
+                "LogName": "NPC-less Herbalist Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/HerbalistMarket.tmx",
+                "ToArea": { "X": 18, "Y": 26, "Width": 6, "Height": 5 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Veggies Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/VeggiesMarket.tmx",
+                "ToArea": { "X": 26, "Y": 26, "Width": 7, "Height": 5 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Tree Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/TreeMarket.tmx",
+                "ToArea": { "X": 33, "Y": 25, "Width": 7, "Height": 6 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Trellis Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/TrellisMarket.tmx",
+                "ToArea": { "X": 11, "Y": 17, "Width": 8, "Height": 7 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+            {
+                "LogName": "Tailor Mouse Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/TailorMarket.tmx",
+                "ToArea": { "X": 24, "Y": 19, "Width": 5, "Height": 5 },
+                "When": {
+                    "HasMod:ppja.tailormousestf":true,
+                }
+            },
+            {
+                "LogName": "NPC-less Florist Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/FlowerMarket.tmx",
+                "ToArea": { "X": 31, "Y": 17, "Width": 8, "Height": 7 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Food Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/FoodMarket.tmx",
+                "ToArea": { "X": 7, "Y": 8, "Width": 6, "Height": 8 },
+                "When": {
+                    "HasMod |contains=paradigmnomad.morefood, ppja.evenmorerecipes, RCK.JAPreserve, KAYA.CherryBlossomCafe, ppja.christmassweets, Bonster.Recipes, Bonster.Adv.Recipes, Zosa.eatums, Minakie.JA.recipes, ppja.MoreRecipesMeat": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Grocer Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/GrocerMarket.tmx",
+                "ToArea": { "X": 13, "Y": 8, "Width": 7, "Height": 8 },
+                "When": {
+                    "HasMod |contains=Hadi.JASoda, paradigmnomad.morefood, Ritsune.ChocolatierJA, HadiZosa.BFAVnewmeat, paradigmnomad.freshmeat, Hadi.FrozenTreatsJA, Ritsune.BakersLifeJA, ppja.evenmorerecipes": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Wild Animals Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/EARIMarket.tmx",
+                "ToArea": { "X": 20, "Y": 8, "Width": 9, "Height": 8 },
+                "When": {
+                    "HasMod |contains=Hadi.EARI,": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Cannabis Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/PotMarket.tmx",
+                "ToArea": { "X": 30, "Y": 11, "Width": 7, "Height": 5 },
+                "When": {
+                    "HasMod:PPJA.cannabiskit":true,
+                }
+            },
+            {
+                "LogName": "NPC-less Gift Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/GiftMarket.tmx",
+                "ToArea": { "X": 39, "Y": 11, "Width": 5, "Height": 5 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+
+        //Grotto
+            {
+                "LogName": "Grotto Path Patch",
+                "Action": "EditMap",
+                "Target": "Maps/Market",
+                "FromFile": "assets/HerbalistMarket.tmx",
+                "ToArea": { "X": 28, "Y": 7, "Width": 4, "Height": 2 },
+                "When": {
+                    "HasMod |contains=ParadigmNomad.FantasyCrops, paradigmnomad.freshmeat, SilverLilly.GemstoneFruitsforJA, SilverLilly.MetalTreesforJA, S24Sammy.ChristmasCrops, ppja.artisanvalleymachinegoods, zcsnightmare.naw, Hadi.JASoda, xiaobaishu.JA.fenjieji, furyx639.ComposterJA, Ritsune.BakersLifeJA, Ritsune.ChocolatierJA, Ivycrowned.JARealisticLooms, KAYA.JACandyMachine, KAYA.JAMoreMead, deffiliation.JAKimchiMaker, Immort.Weap, Strobe.PersonalAnvil, lumisteria.JA.flowersinwateringcans, amburr.spoopyvalley": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Equipment Patch",
+                "Action": "EditMap",
+                "Target": "Maps/MarketGrotto",
+                "FromFile": "assets/EquipmentMarket.tmx",
+                "ToArea": { "X": 3, "Y": 6, "Width": 6, "Height": 6 },
+                "When": {
+                    "HasMod |contains=ppja.artisanvalleymachinegoods, zcsnightmare.naw, Hadi.JASoda, xiaobaishu.JA.fenjieji, furyx639.ComposterJA, Ritsune.BakersLifeJA, Ritsune.ChocolatierJA, Ivycrowned.JARealisticLooms, KAYA.JACandyMachine, KAYA.JAMoreMead, deffiliation.JAKimchiMaker, Immort.Weap, Strobe.PersonalAnvil": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Alchemist Patch",
+                "Action": "EditMap",
+                "Target": "Maps/MarketGrotto",
+                "FromFile": "assets/MagickMarket.tmx",
+                "ToArea": { "X": 12, "Y": 2, "Width": 7, "Height": 7 },
+                "When": {
+                    "HasMod |contains=ParadigmNomad.FantasyCrops, paradigmnomad.freshmeat, SilverLilly.GemstoneFruitsforJA, SilverLilly.MetalTreesforJA, S24Sammy.ChristmasCrops": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Furniture Patch",
+                "Action": "EditMap",
+                "Target": "Maps/MarketGrotto",
+                "FromFile": "assets/ShadyMarket.tmx",
+                "ToArea": { "X": 9, "Y": 2, "Width": 3, "Height": 3 },
+                "When": {
+                    "HasMod |contains=lumisteria.JA.flowersinwateringcans, amburr.spoopyvalley": "true"
+                }
+            },
+            {
+                "LogName": "NPC-less Bestiary Patch",
+                "Action": "EditMap",
+                "Target": "Maps/MarketGrotto",
+                "FromFile": "assets/BeastMarket.tmx",
+                "ToArea": { "X": 14, "Y": 10, "Width": 4, "Height": 6 },
+                "When": {
+                    "HasMod |contains=": "true"
+                }
+            },
+
+            
+        {
+            "LogName": "English Strings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries":
+            {
+                "Mateo.1": "MUYAL VINEYARD OUTPOST^The Vintner's One Stop Shop for Trellis Crops. Open daily from 9AM-6PM.",
+                "Jo.1": "ESTELLE FARMS SEEDBANK^Fine Purveyors of Vegetables in the Valley For Three Generations. Open daily from 9AM-6PM.",
+                "Lena.1": "ESTELLE ORCHARDS SEEDLINGS^Award Winning Fruit Trees Since XX47. Open daily from 9AM-6PM.",
+                "Aideen.1": "L'AUBE FLEURIE^A Florist's Wandering Dream. Open daily from 9AM-6PM.",
+                "Izdihar.1": "FANTASTIC MEATS AND WHERE TO PLANT THEM^Magically Engineered Crops for The Curious Gardener. Open the first week of each month, and then Wednesdays from 9AM-6PM.#$b#DISCLAIMER: Vendor claims no responsibility for any unintended side-effects, accidental poisonings, mysterious night visitors, or explosions resulting in loss of limbs, life, or the discovery of new and inexplainable cravings for dirt. Buy at your own risk.",
+                "NasiraW.1": "KHADIJA'S EQUIPMENT SHOP - VALLEY OUTPOST^Weapons and Artisan Equipment From Across the Desert. Open Mondays and Wednesdays, from 9AM-6PM.",
+                "Ivy.1": "IVY'S CANNABIS DISPENSARY^Serving the Needs of Stardew Valley, One Joint at a Time. Open daily from 9AM-6PM.",
+                "Haniyya.1": "HANIYYA'S NATURAL HEALING^Home Remedies and Herbs, From Grampleton Forest to You. Open daily from 9AM-6PM.",            }
+        },
+    ]
+}
